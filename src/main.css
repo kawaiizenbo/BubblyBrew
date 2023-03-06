@@ -1,216 +1,175 @@
-/* Credit to https://github.com/Overimagine1/old-discord-font */
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css");
 
-@font-face {
-  font-family: Whitney;
-  font-style: normal;
-  font-weight: 300;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/46933da896ba96126074286056614542.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: italic;
-  font-weight: 300;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/1651ce6325c0da043476ace0bec3971b.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/24bda95d153a319704c33329f3ab84bb.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: italic;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/7f18f1d5ab6ded7cf71bbc1f907ee3d4.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: normal;
-  font-weight: 500;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/cf4a8a10bbdf9b775fad41e0b9921c84.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: italic;
-  font-weight: 500;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/9cfa747e897c772d25efd8e4a42a005e.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: normal;
-  font-weight: 600;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/f9e7047f6447547781512ec4b977b2ab.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: italic;
-  font-weight: 600;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/21070f52a8a6a61edef9785eaf303fb8.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: normal;
-  font-weight: 700;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/f9c8fcfa7dcc5d6a291a6ebbe3bb847e.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: italic;
-  font-weight: 700;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/5e1649183589023fb24667a369af585d.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: normal;
-  font-weight: 300;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/ab688947d482808a0b3347f84ebb17a9.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: italic;
-  font-weight: 300;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/0635f419b122d24f9f60ac4d1066cbc6.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/91dcabd038a2e07ea6fbe7ddb625ecfb.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: italic;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/ea053183733605b24806f222b067b1e1.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: normal;
-  font-weight: 500;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/9491a199bd318f1fc38711fb5067f401.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: italic;
-  font-weight: 500;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/f0cf30536a7fa447f0c45fdb3b2a6f28.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: normal;
-  font-weight: 700;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/7d66dfcf8e39f27f163fba8d79577fd8.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: italic;
-  font-weight: 700;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/9a07cb5ae387a52309b7198543ae5e02.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: normal;
-  font-weight: 300;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/5e6f352adb4a6b55ed230f2f91769156.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: italic;
-  font-weight: 300;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/30b475dcfa1e8b74d815946e4c18ee09.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/1ace668db419a5014cf75bc116321af3.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: italic;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/50510b66614a2f395530c61b7c9b6827.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: normal;
-  font-weight: 500;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/9e94673570e295b6fb5d4456c4211015.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: italic;
-  font-weight: 500;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/6603a2fb4d2bc997e023972a51938144.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: normal;
-  font-weight: 700;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/87c79174865938aedf188b7344fb0428.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: italic;
-  font-weight: 700;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/d93311938f51e8608a5d5cb2ea975157.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: normal;
-  font-weight: 800;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/bc5af8e71e27d363e2eeac75c9628922.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: italic;
-  font-weight: 800;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/dc407fd65057fce34a56bf7b6ebb0b9f.woff2)
-    format("woff2");
+:root
+{
+	--mention-colour: 255, 33, 88;
+
+	/* SettingsModal */
+	--settingsmodalbackground:     transparent;            /* default:    transparent        (lowest bg color of changed windows, change it in case another theme turns them transparent)    */
+    --settingsmodalwidth:         960px;                    /* default:    960px            (width of the settings modal, px/vw)                                                            */
+    --settingsmodalheight:         80vh;                    /* default:    80vh            (height of the settings modal, px/vh)                                                           */
+
+    --background-modifier-active: var(--background-tertiary);
+    --background-floating: var(--background-secondary);
+    --scrollbar-auto-thumb:var(--background-tertiary);
+    --scrollbar-auto-track: var(--background-primary);
+    --scrollbar-thin-thumb: var(--background-tertiary);
+    --activity-card-background: var(--background-secondary);
+    --background-modifier-selected: var(--background-tertiary);
+    --background-secondary-alt: var(--background-secondary);
+    --channeltextarea-background: var(--background-secondary);
+    --background-message-hover: var(--background-modifier-hover);
 }
 
-:root {
-  --font-primary: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-display: "ABC Ginto Normal", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-headline: "ABC Ginto Nord", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-code: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter",
-    "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco,
-    "Courier New", Courier, monospace;
-  --font-korean: Whitney, "Apple SD Gothic Neo", NanumBarunGothic, "\B9D1\C740 \ACE0\B515",
-    "Malgun Gothic", Gulim, 굴림, Dotum, 돋움, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-japanese: Whitney, "Hiragino Sans", "\30D2\30E9\30AE\30CE\89D2\30B4 ProN W3",
-    "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, Osaka, "MS PGothic", "Helvetica Neue", Helvetica,
-    Arial, sans-serif;
-  --font-chinese-simplified: Whitney, "Microsoft YaHei New", 微软雅黑, "Microsoft Yahei",
-    "Microsoft JhengHei", 宋体, SimSun, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-chinese-traditional: Whitney, "Microsoft JhengHei", 微軟正黑體, "Microsoft JhengHei UI",
-    "Microsoft YaHei", 微軟雅黑, 宋体, SimSun, "Helvetica Neue", Helvetica, Arial, sans-serif;
+/* light mode */
+.theme-light
+{
+    --background-primary: #F9E5E9;
+    --background-secondary: #F4D4DB;
+    --background-tertiary: #F9C7D1;
+
+    --background-modifier-hover: #F9E0E5;
+    --channels-default: black;
+    --interactive-muted: #777;
+}
+
+/* set colours for dark mode */
+.theme-dark
+{
+    --background-primary: #321E28;
+    --background-secondary: #28141E;
+    --background-tertiary: #230F19;
+
+    --background-modifier-hover: #2D1923;
+}
+
+.peopleColumn-1wMU14 
+{
+    background: var(--background-primary);
+}
+
+/* no bio cut off */
+[class*="lineClamp2Plus-"] {
+    -webkit-line-clamp: unset !important;
+}
+
+/* hi-colour mentions */
+.mentioned-Tre-dv
+{
+    background-color: rgba(var(--mention-colour), 0.08) !important;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.mentioned-Tre-dv:hover
+{
+    background-color: rgba(var(--mention-colour), 0.1) !important;
+}
+
+div[class*="mentioned"]::before 
+{
+    width: 4px;
+    background-color: rgb(var(--mention-colour));
+}
+
+div[class*="replying"]::before 
+{
+    width: 4px;
+}
+
+/* remove stuff we keep clicking on on accident :( */
+div.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label="Help"],
+.wordmarkWindows-2dq6rw,
+div[id="user-context-invite-to-server"],
+div[id="user-context-call"]
+{
+    display: none !important;
+}
+
+/* make image attachments all the way square */
+.mediaAttachmentsContainer-1WGRWy,
+.oneByOneGridSingle-2ss-Zx,
+.messageAttachmentMediaMosaic-2ic1yt,
+.imageWrapper-oMkQl4 
+{
+    border-radius: 0;
+}
+
+/* reorder top bar and make search bar small by default */
+.searchBar-jGtisZ
+{
+    width: 75px;
+    border-radius: 12px;
+}
+
+.children-3xh0VB:after
+{
+    display: none;
+}
+
+.iconWrapper-2awDjA 
+{
+    order: -1;
+}
+
+/* role indicator background on user popout */
+.role-2TIOKu 
+{
+    border-radius: 12px;
+}
+
+.roleCircle-1EgnFN 
+{
+    width: 5 !important;
+    height: 5 !important;
+}
+
+/* server channel list backgrounds */
+.content-1gYQeQ 
+{
+    border-radius: 25px;
+}
+
+/* red dot unread */
+.unread-36eUEm 
+{
+    z-index: 1;
+    position: absolute;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    top: 42%;
+    left: 1px;
+    margin-top: 0px;
+    background-color: rgba(var(--mention-colour));
+}
+
+/* embed round on one side */
+.embedFull-1HGV2S 
+{
+    border-radius: 0px 15px 15px 0px;
+}
+
+/* fix channel typing indicator on light mode */
+.theme-light .channel-typing-indicator
+{
+    filter: invert(1);
+}
+
+.scrollableContainer-15eg7h
+{
+    border-radius: 25px;
+}
+
+.hasConnectedBar-1vN2JH
+{
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+
+.attachedBars-2BCP3l,
+.replyBar-1oi75v
+{
+    border-top-left-radius: 25px !important;
+    border-top-right-radius: 25px !important;
 }

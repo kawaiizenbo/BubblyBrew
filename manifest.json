@@ -1,16 +1,16 @@
 {
-  "id": "dev.replugged.ThemeTemplate",
-  "name": "Theme Template",
-  "description": "A theme template",
+  "id": "me.kawaiizenbo.BubblyBrew",
+  "name": "Bubbly Brew",
+  "description": "a very cute and pink discord theme",
   "author": {
-    "name": "replugged",
-    "discordID": "1000992611840049192",
-    "github": "replugged-org"
+    "name": "KawaiiZenbo",
+    "discordID": "287197076150812673",
+    "github": "kawaiizenbo"
   },
   "version": "1.0.0",
   "updater": {
     "type": "github",
-    "id": "replugged-org/theme-template"
+    "id": "kawaiizenbo/BubblyBrew"
   },
   "license": "MIT",
   "type": "replugged-theme",
