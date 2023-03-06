@@ -7,7 +7,7 @@
     "discordID": "287197076150812673",
     "github": "kawaiizenbo"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "updater": {
     "type": "github",
     "id": "kawaiizenbo/BubblyBrew"

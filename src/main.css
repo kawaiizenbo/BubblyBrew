@@ -100,7 +100,7 @@ div[id="user-context-call"]
 {
     width: 75px;
     border-radius: 12px;
-    background: #F7E5E9;
+    background: var(--background-secondary);
 }
 
 .children-3xh0VB:after
