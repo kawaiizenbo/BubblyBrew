@@ -24,8 +24,8 @@
 /* light mode */
 .theme-light
 {
-    --background-primary: #F9E5E9;
-    --background-secondary: #F4D4DB;
+    --background-primary: #FFFFFF;
+    --background-secondary: #F7E5E9;
     --background-tertiary: #F9C7D1;
 
     --background-modifier-hover: #F9E0E5;
