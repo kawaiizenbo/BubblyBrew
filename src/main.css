@@ -28,7 +28,7 @@
     --background-secondary: #F7E5E9;
     --background-tertiary: #F9C7D1;
 
-    --background-modifier-hover: #F9E0E5;
+    --background-modifier-hover: #F9EDEF;
     --channels-default: black;
     --interactive-muted: #777;
 }
@@ -100,16 +100,12 @@ div[id="user-context-call"]
 {
     width: 75px;
     border-radius: 12px;
+    background: #F7E5E9;
 }
 
 .children-3xh0VB:after
 {
     display: none;
-}
-
-.iconWrapper-2awDjA 
-{
-    order: -1;
 }
 
 /* role indicator background on user popout */
@@ -139,7 +135,7 @@ div[id="user-context-call"]
     width: 6px;
     border-radius: 50%;
     top: 42%;
-    left: 1px;
+    left: 3px;
     margin-top: 0px;
     background-color: rgba(var(--mention-colour));
 }
