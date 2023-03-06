@@ -1,6 +1,6 @@
 {
   "name": "bubbly-brew",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a very cute and pink discord theme",
   "engines": {
     "node": ">=14.0.0"
