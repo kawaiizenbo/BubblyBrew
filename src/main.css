@@ -47,7 +47,7 @@
 .title-31SJ6t,
 .content-yjf30S
 {
-    background: var(--background-primary);
+    background: var(--background-primary) !important;
 }
 
 /* no bio cut off */
