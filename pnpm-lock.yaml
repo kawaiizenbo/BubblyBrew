@@ -3,15 +3,15 @@ lockfileVersion: 5.4
 specifiers:
   '@parcel/config-default': ^2.8.3
   '@parcel/core': ^2.8.3
-  '@types/node': ^18.11.15
-  prettier: ^2.8.1
+  '@types/node': ^18.15.11
+  prettier: ^2.8.7
   replugged: 4.2.4
 
 devDependencies:
   '@parcel/config-default': 2.8.3_@parcel+core@2.8.3
   '@parcel/core': 2.8.3
-  '@types/node': 18.11.15
-  prettier: 2.8.1
+  '@types/node': 18.15.11
+  prettier: 2.8.7
   replugged: 4.2.4
 
 packages:
@@ -1335,7 +1335,7 @@ packages:
     requiresBuild: true
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 18.11.15
+      '@types/node': 18.15.11
     dev: true
     optional: true
 
@@ -1348,8 +1348,8 @@ packages:
     dev: true
     optional: true
 
-  /@types/node/18.11.15:
-    resolution: {integrity: sha512-VkhBbVo2+2oozlkdHXLrb3zjsRkpdnaU2bXmX8Wgle3PUi569eLRaHGlgETQHR7lLL1w7GiG3h9SnePhxNDecw==}
+  /@types/node/18.15.11:
+    resolution: {integrity: sha512-E5Kwq2n4SbMzQOn6wnmBjuK9ouqlURrcZDVfbo9ftDDTFt3nk7ZKK4GMOzoYgnpQJKcxwQw+lGaBvvlMo0qN/Q==}
     dev: true
 
   /@types/parse-json/4.0.0:
@@ -2518,8 +2518,8 @@ packages:
       posthtml-render: 3.0.0
     dev: true
 
-  /prettier/2.8.1:
-    resolution: {integrity: sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==}
+  /prettier/2.8.7:
+    resolution: {integrity: sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -2707,7 +2707,7 @@ packages:
   /standalone-electron-types/1.0.0:
     resolution: {integrity: sha512-0HOi/tlTz3mjWhsAz4uRbpQcHMZ+ifj1JzWW9nugykOHClBBG77ps8QinrzX1eow4Iw2pnC+RFaSYRgufF4BOg==}
     dependencies:
-      '@types/node': 18.11.15
+      '@types/node': 18.15.11
     dev: true
 
   /string-width/4.2.3:
