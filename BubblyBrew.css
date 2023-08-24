@@ -43,12 +43,6 @@
     --background-modifier-hover: #2D1923;
 }
 
-.peopleColumn-1wMU14,
-.content-yjf30S
-{
-    background: var(--background-primary);
-}
-
 /* no bio cut off */
 [class*="lineClamp2Plus-"] {
     -webkit-line-clamp: unset !important;
@@ -169,4 +163,9 @@ div[id="user-context-call"]
 {
     border-top-left-radius: 25px !important;
     border-top-right-radius: 25px !important;
+}
+
+.member-48YF_l, .members-3WRCEx 
+{
+    background: transparent !important;
 }
