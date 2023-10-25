@@ -44,19 +44,19 @@
 }
 
 /* no bio cut off */
-[class*="lineClamp2Plus-"] {
+[class*="lineClamp2Plus_"] {
     -webkit-line-clamp: unset !important;
 }
 
 /* hi-colour mentions */
-.mentioned-Tre-dv
+.mentioned__58017
 {
     background-color: rgba(var(--mention-colour), 0.08) !important;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
 }
 
-.mentioned-Tre-dv:hover
+.mentioned__58017:hover
 {
     background-color: rgba(var(--mention-colour), 0.1) !important;
 }
@@ -73,7 +73,7 @@ div[class*="replying"]::before
 }
 
 /* remove stuff we keep clicking on on accident :( */
-div.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label="Help"],
+div.iconWrapper_af9215.clickable_d23a1a[aria-label="Help"],
 .wordmarkWindows-2dq6rw,
 div[id="user-context-invite-to-server"],
 div[id="user-context-call"]
@@ -82,47 +82,47 @@ div[id="user-context-call"]
 }
 
 /* make image attachments all the way square */
-.mediaAttachmentsContainer-1WGRWy,
-.oneByOneGridSingle-2ss-Zx,
-.messageAttachmentMediaMosaic-2ic1yt,
-.imageWrapper-oMkQl4 
+.mediaAttachmentsContainer_edba75,
+.oneByOneGridSingle__01756,
+.messageAttachmentMediaMosaic__65bfc,
+.imageWrapper_fd6587
 {
     border-radius: 0;
 }
 
 /* reorder top bar and make search bar small by default */
-.searchBar-jGtisZ
+.searchBar_e0c60b
 {
     width: 75px;
     border-radius: 12px;
     background: var(--background-secondary);
 }
 
-.children-3xh0VB:after
+.children__32014:after
 {
     display: none;
 }
 
 /* role indicator background on user popout */
-.role-2TIOKu 
+.role__631a3
 {
     border-radius: 12px;
 }
 
-.roleCircle-1EgnFN 
+.roleCircle_bae511
 {
     width: 5 !important;
     height: 5 !important;
 }
 
 /* server channel list backgrounds */
-.content-1gYQeQ 
+li.containerDefault__3187b:nth-child(12) > div:nth-child(1) > div:nth-child(1)
 {
     border-radius: 25px;
 }
 
 /* red dot unread */
-.unread-36eUEm 
+.unread__48cf4
 {
     z-index: 1;
     position: absolute;
@@ -136,7 +136,7 @@ div[id="user-context-call"]
 }
 
 /* embed round on one side */
-.embedFull-1HGV2S 
+.embedFull__8dc21
 {
     border-radius: 0px 15px 15px 0px;
 }
@@ -147,25 +147,27 @@ div[id="user-context-call"]
     filter: invert(1);
 }
 
-.scrollableContainer-15eg7h
+/* make message text box round */
+.scrollableContainer__33e06
 {
     border-radius: 25px;
 }
 
-.hasConnectedBar-1vN2JH
+.hasConnectedBar__277ab
 {
     border-top-left-radius: 0px !important;
     border-top-right-radius: 0px !important;
 }
 
-.attachedBars-2BCP3l,
-.replyBar-1oi75v
+.attachedBars_da3c74,
+.replyBar_b64d74
 {
     border-top-left-radius: 25px !important;
     border-top-right-radius: 25px !important;
 }
 
-.member-48YF_l, .members-3WRCEx 
+/* i dont know what this does */
+/*.member-48YF_l, .members-3WRCEx 
 {
     background: transparent !important;
-}
+}*/
