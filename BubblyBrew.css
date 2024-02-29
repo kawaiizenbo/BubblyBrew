@@ -49,14 +49,14 @@
 }
 
 /* hi-colour mentions */
-.mentioned__58017
+.mentioned_fa6fd2
 {
     background-color: rgba(var(--mention-colour), 0.08) !important;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
 }
 
-.mentioned__58017:hover
+.mentioned_fa6fd2:hover
 {
     background-color: rgba(var(--mention-colour), 0.1) !important;
 }
@@ -73,8 +73,7 @@ div[class*="replying"]::before
 }
 
 /* remove stuff we keep clicking on on accident :( */
-div.iconWrapper_af9215.clickable_d23a1a[aria-label="Help"],
-.wordmarkWindows-2dq6rw,
+div.iconWrapper_de6cd1.clickable_ce0925[aria-label="Help"],
 div[id="user-context-invite-to-server"],
 div[id="user-context-call"]
 {
@@ -82,41 +81,42 @@ div[id="user-context-call"]
 }
 
 /* make image attachments all the way square */
-.mediaAttachmentsContainer_edba75,
-.oneByOneGridSingle__01756,
-.messageAttachmentMediaMosaic__65bfc,
-.imageWrapper_fd6587
+.mediaAttachmentsContainer__242e2,
+.oneByOneGridSingle__8c6ef,
+.messageAttachmentMediaMosaic__67262,
+.imageWrapper__178ee
 {
     border-radius: 0;
 }
 
 /* reorder top bar and make search bar small by default */
-.searchBar_e0c60b
+.searchBar__5a20a
 {
     width: 75px;
     border-radius: 12px;
     background: var(--background-secondary);
 }
 
-.children__32014:after
+
+.children_cde9af:after
 {
     display: none;
 }
 
 /* role indicator background on user popout */
-.role__631a3
+.role_d81130
 {
     border-radius: 12px;
 }
 
-.roleCircle_bae511
+.roleCircle__61ad8
 {
     width: 5 !important;
     height: 5 !important;
 }
 
 /* server channel list backgrounds */
-.link__95dc0
+.link_ddbb36
 {
     border-radius: 25px;
 }
@@ -130,13 +130,13 @@ div[id="user-context-call"]
     width: 6px;
     border-radius: 50%;
     top: 42%;
-    left: 3px;
+    left: 0px;
     margin-top: 0px;
     background-color: rgba(var(--mention-colour));
 }
 
 /* embed round on one side */
-.embedFull__8dc21
+.embedFull__14919
 {
     border-radius: 0px 15px 15px 0px;
 }
@@ -148,19 +148,19 @@ div[id="user-context-call"]
 }
 
 /* make message text box round */
-.scrollableContainer__33e06
+.scrollableContainer_ff917f
 {
     border-radius: 25px;
 }
 
-.hasConnectedBar__277ab
+.hasConnectedBar__7d21e
 {
     border-top-left-radius: 0px !important;
     border-top-right-radius: 0px !important;
 }
 
-.attachedBars_da3c74,
-.replyBar_b64d74
+.attachedBars_c1606a,
+.replyBar_ed6afc
 {
     border-top-left-radius: 25px !important;
     border-top-right-radius: 25px !important;
