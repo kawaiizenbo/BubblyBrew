@@ -49,14 +49,14 @@
 }
 
 /* hi-colour mentions */
-.mentioned_fa6fd2
+.mentioned_d5deea
 {
     background-color: rgba(var(--mention-colour), 0.08) !important;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
 }
 
-.mentioned_fa6fd2:hover
+.mentioned_d5deea:hover
 {
     background-color: rgba(var(--mention-colour), 0.1) !important;
 }
@@ -73,7 +73,7 @@ div[class*="replying"]::before
 }
 
 /* remove stuff we keep clicking on on accident :( */
-div.iconWrapper_de6cd1.clickable_ce0925[aria-label="Help"],
+div.iconWrapper_fc4f04.clickable_fc4f04[aria-label="Help"],
 div[id="user-context-invite-to-server"],
 div[id="user-context-call"]
 {
@@ -81,48 +81,45 @@ div[id="user-context-call"]
 }
 
 /* make image attachments all the way square */
-.mediaAttachmentsContainer__242e2,
-.oneByOneGridSingle__8c6ef,
-.messageAttachmentMediaMosaic__67262,
-.imageWrapper__178ee
+.visualMediaItemContainer_cda674,
+.oneByOneGridSingle_cda674,
+.imageWrapper_d4597d
 {
     border-radius: 0;
 }
 
 /* reorder top bar and make search bar small by default */
-.searchBar__5a20a
+.searchBar_a46bef
 {
     width: 75px;
     border-radius: 12px;
     background: var(--background-secondary);
 }
 
+.recentsIcon_ea0547
+{
+    order: -1
+}
 
-.children_cde9af:after
+.children_fc4f04:after
 {
     display: none;
 }
 
 /* role indicator background on user popout */
-.role_d81130
+.role_f9575e
 {
     border-radius: 12px;
 }
 
-.roleCircle__61ad8
-{
-    width: 5 !important;
-    height: 5 !important;
-}
-
 /* server channel list backgrounds */
-.link_ddbb36
+.link_d8bfb3
 {
     border-radius: 25px;
 }
 
 /* red dot unread */
-.unread__48cf4
+.unread_d8bfb3
 {
     z-index: 1;
     position: absolute;
@@ -136,31 +133,24 @@ div[id="user-context-call"]
 }
 
 /* embed round on one side */
-.embedFull__14919
+.embedFull_b0068a
 {
     border-radius: 0px 15px 15px 0px;
 }
 
-/* fix channel typing indicator on light mode */
-.theme-light .channel-typing-indicator
-{
-    filter: invert(1);
-}
-
 /* make message text box round */
-.scrollableContainer_ff917f
+.scrollableContainer_d0696b
 {
     border-radius: 25px;
 }
 
-.hasConnectedBar__7d21e
+.hasConnectedBar_d0696b
 {
     border-top-left-radius: 0px !important;
     border-top-right-radius: 0px !important;
 }
 
-.attachedBars_c1606a,
-.replyBar_ed6afc
+.attachedBars_d0696b
 {
     border-top-left-radius: 25px !important;
     border-top-right-radius: 25px !important;
