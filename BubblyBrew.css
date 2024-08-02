@@ -75,7 +75,8 @@ div[class*="replying"]::before
 /* remove stuff we keep clicking on on accident :( */
 div.iconWrapper_fc4f04.clickable_fc4f04[aria-label="Help"],
 div[id="user-context-invite-to-server"],
-div[id="user-context-call"]
+div[id="user-context-call"],
+.channelAppLauncher_df39bd
 {
     display: none !important;
 }
